@@ -19,6 +19,7 @@ do {
 if(phonebook[i].name === name){
   let phone = phonebook[i].number;
   para.textContent = `His name is ${name} and his phonenumber is ${phone}.`;
+  break;
 }
 i++;}
 while(i <= phonebook.length-1);
